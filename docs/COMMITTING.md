@@ -1,6 +1,6 @@
 # Committing Generated Files
 
-To commit the generated Spring Boot modulith into this repository, follow these steps:
+The generated Spring Boot modulith lives in the `chemical-list-api/` directory at the root of this repository. Run the commands below from the repository root (`chemical-lists/`).
 
 1. Ensure you are on the correct branch (for example, `work`).
    ```bash
@@ -8,9 +8,9 @@ To commit the generated Spring Boot modulith into this repository, follow these 
    ```
 2. Stage the new project directory and any updated files.
    ```bash
-   git add chemical-list-api
+   git add chemical-list-api docs/COMMITTING.md
    ```
-   If you also changed documentation files, stage them as well.
+   If you touched additional files, add them as well.
 
 3. Review the staged changes before committing.
    ```bash
