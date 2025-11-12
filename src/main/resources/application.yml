@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: chemical-lists
+
+app:
+  security:
+    mode: apikey
+    api-key-header-name: x-api-key
+    api-key-value: local-dev-key
+    api-key-principal: api-key-user
+    anonymous-actor: public
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
